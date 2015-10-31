@@ -40,10 +40,14 @@ def conv_numPy(Y,Z,isCorr):
 	# Compute Fourier Transforms
 	im1_ft = fft.fft2(im1);
 	im2_ft = fft.fft2(im2);
+	print real(im1_ft)
+	print real(im2_ft)
 	if isCorr:
 		im2_ft = im2_ft.conj(); 	# 'Reflect' the shape for correlation
 	# Convolution in spatial domain after inverting product of Fourier Transforms in frequency domain
-	A = fft.ifft2(im1_ft * im2_ft); 
+	im_ft = im1_ft * im2_ft;
+	print real(im_ft)
+	A = fft.ifft2(im_ft); 
 	return A   
 
 def make_indicator(X, idx_array):
