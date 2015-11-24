@@ -2,7 +2,7 @@
 % and b in A and B respectively, at indices (ai,aj) and (bi,bj), C has a 
 % 1 at (ai+bi,aj+bj) while the rest of the matrix is zero. size(C) = size(A) + size(B).
 % Do this, by taking the fourier transform of the matrices and piecewise multiplying them.
-function C = s03_minkowskiSumFT (A, B)
+function C = s04_minkowskiSumFT (A, B)
 
 	% Make the two matrices bigger
 	A2 = zeros(size(A) + size(B));
@@ -16,7 +16,8 @@ function C = s03_minkowskiSumFT (A, B)
 
 	% Piecewise multiply
 	fC = fA .* fB;
-
+  keyboard
+  
 	% Bring it back to space domain
 	C = ifft2(fC);
 
