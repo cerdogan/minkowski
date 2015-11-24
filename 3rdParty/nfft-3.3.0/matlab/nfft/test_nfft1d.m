@@ -18,10 +18,12 @@
 % Test script of class nfft for spatial dimension d=1.
 clear all;
 
-M=16; % number of nodes
-N=24; % number of Fourier coefficients in first direction
+M=12; % number of nodes
+N=12; % number of Fourier coefficients in first direction
 
 x=rand(M,1)-0.5; %nodes
+%x=(0:1/M:(1-1/M)) - 0.5;
+%x=x'
 
 % Initialisation
 plan=nfft(1,N,M); % create plan of class type nfft
@@ -29,7 +31,9 @@ plan.x=x; % set nodes in plan
 nfft_precompute_psi(plan); % precomputations
 
 fhat=rand(N,1); % Fourier coefficients
+fhat = sin(x);
 fhatv=fhat(:);
+
 
 % Compute samples with NFFT
 plan.fhat=fhatv; % set Fourier coefficients

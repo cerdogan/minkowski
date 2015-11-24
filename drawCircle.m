@@ -9,7 +9,7 @@ function h = drawCircle (pos, radius, color)
 
     if(nargin < 3), color = 'k'; end;
     
-    numSegments = 32;
+    numSegments = 16;
     angle = (2 * pi) / numSegments;
     ps = [];
     for i = 0 : (numSegments)
@@ -17,11 +17,10 @@ function h = drawCircle (pos, radius, color)
         else j = i + 1; end;
         point1 = pos + radius * [cos(i * angle), sin(i * angle)];
         point2 = pos + radius * [cos(j * angle), sin(j * angle)];
-        hold on; 
-        axis equal;
         hold on;
         ps(end+1,:) = point1;
     end
     
     h = plot(ps(:,1), ps(:,2) ,['-', color]);
+    axis equal
 end
