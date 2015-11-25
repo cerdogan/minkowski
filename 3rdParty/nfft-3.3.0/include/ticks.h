@@ -23,7 +23,7 @@
 
 #include "cycle.h"
 
-#define TICKS_PER_SECOND 3600367948.0
+#define TICKS_PER_SECOND 3502869992.0
 
 #ifndef HAVE_TICK_COUNTER
   typedef unsigned ticks;

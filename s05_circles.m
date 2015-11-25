@@ -1,6 +1,5 @@
 % Given two 2D shapes with sufficient number of circles (apparently at
-% least 12), check if the element-wise multiplication of their fourier
-% representations capture collisions.
+% least 12), check if ...
 function [] = s05_collisionNFFT () 
 
   addpath(genpath('3rdParty'));

@@ -2,7 +2,7 @@
 /* include/config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* Absolute path to source directory. */
-#define ABS_SRCDIR "/home/cerdogan/Downloads/nfft-3.3.0/."
+#define ABS_SRCDIR "/home/cerdogan/Documents/minkowski/3rdParty/nfft-3.3.0/."
 
 /* Define to enable B-spline window function. */
 /* #undef B_SPLINE */

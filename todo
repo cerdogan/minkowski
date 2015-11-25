@@ -1,8 +1,0 @@
-1+ Implement fourier and its inverse on your own from scratch and compare with matlab fft
-2- Implement minkowski sum of two images with your own discrete fourier
-3- Implement convolution to find intersection of two images with your own discrete fourier
-4- Implement nfft and its inverse slow by yourself and compare with nfft
-5- Implement minkowski sum of two images with your own discrete nfft
-6- Implement minkowski sum with fast nfft
-7- Implement collision detection with your own discrete nfft
-8- Implement collision detection with fast nfft

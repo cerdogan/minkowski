@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/usr/local/MATLAB/R2013b//bin/glnxa64 /usr/local/lib/libfftw3.la -lm -lmx -lmex -lmat'
+dependency_libs=' -L/usr/local/MATLAB/R2012a//bin/glnxa64 -lm -lfftw3 -lmx -lmex -lmat'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

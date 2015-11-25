@@ -46,9 +46,9 @@ libnnfft_la-nnfftmex.lo: nnfftmex.c ../../include/config.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/inttypes.h \
  ../../include/ticks.h ../../include/cycle.h \
  /usr/include/x86_64-linux-gnu/sys/time.h ../../matlab/imex.h \
- /usr/local/MATLAB/R2013b//extern/include/mex.h \
- /usr/local/MATLAB/R2013b//extern/include/matrix.h \
- /usr/local/MATLAB/R2013b//extern/include/tmwtypes.h \
+ /usr/local/MATLAB/R2012a//extern/include/mex.h \
+ /usr/local/MATLAB/R2012a//extern/include/matrix.h \
+ /usr/local/MATLAB/R2012a//extern/include/tmwtypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -188,11 +188,11 @@ libnnfft_la-nnfftmex.lo: nnfftmex.c ../../include/config.h \
 
 ../../matlab/imex.h:
 
-/usr/local/MATLAB/R2013b//extern/include/mex.h:
+/usr/local/MATLAB/R2012a//extern/include/mex.h:
 
-/usr/local/MATLAB/R2013b//extern/include/matrix.h:
+/usr/local/MATLAB/R2012a//extern/include/matrix.h:
 
-/usr/local/MATLAB/R2013b//extern/include/tmwtypes.h:
+/usr/local/MATLAB/R2012a//extern/include/tmwtypes.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed/limits.h:
 
