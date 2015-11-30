@@ -9,7 +9,7 @@ function h = drawCircle (pos, radius, color)
 
     if(nargin < 3), color = 'k'; end;
     
-    numSegments = 16;
+    numSegments = 32;
     angle = (2 * pi) / numSegments;
     ps = [];
     for i = 0 : (numSegments)

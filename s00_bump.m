@@ -1,14 +1,14 @@
-function [] = s00_bump ()
+% The bump function defined as in Jarek's paper.
 
-  xs = -2:0.01:2;
-  ys01 = exp(1-power(abs(xs),-0.1)).^-1;
-  ys1 = exp(1-power(abs(xs),-1)).^-1;
-  ys10 = exp(1-power(abs(xs),-10)).^-1;
-  ys100 = exp(1-power(abs(xs),-100)).^-1;
-  plot(xs,ys01,'r',xs,ys1,'g',xs,ys10,'b',xs,ys100,'k');
-  legend('a=0.1','a=1.0','a=10.0','a=100.0')
-  axis([-2 2 0 10])
-  title('Bump function with different \alpha values', 'FontSize', 14);
-  ylabel('\psi_{\alpha}(x)');
-
+% -------------------------------------------------------------------------
+function v = s00_bump (x, alpha, offset_)
+  if(nargin > 2), offset = offset_; 
+  else offset = 0; end;
+  v = [];
+  for i = 1 : numel(x)
+    abs(x(i))
+    if(abs(x(i)) < (1-1e-5)), v(end+1) = exp(1-power(abs(x(i))+offset,-alpha)).^-1;
+    else v(end+1) = 0; end;
+  end
 end
+% -------------------------------------------------------------------------
