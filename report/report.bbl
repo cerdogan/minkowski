@@ -1,3 +1,74 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{behandish2016analytic}
+Morad Behandish and Horea~T Ilie{\c{s}}.
+\newblock Analytic methods for geometric modeling via spherical decomposition.
+\newblock {\em Computer-Aided Design}, 70:100--115, 2016.
+
+\bibitem{kavraki1995computation}
+Lydia~E Kavraki.
+\newblock Computation of configuration-space obstacles using the fast fourier
+  transform.
+\newblock {\em Robotics and Automation, IEEE Transactions on}, 11(3):408--413,
+  1995.
+
+\bibitem{lysenko2013fourier}
+Mikola Lysenko.
+\newblock Fourier collision detection.
+\newblock {\em The International Journal of Robotics Research}, 32(4):483--503,
+  2013.
+
+\bibitem{cooley1965algorithm}
+James~W Cooley and John~W Tukey.
+\newblock An algorithm for the machine calculation of complex fourier series.
+\newblock {\em Mathematics of computation}, 19(90):297--301, 1965.
+
+\bibitem{gottschalk1996obbtree}
+Stefan Gottschalk, Ming~C Lin, and Dinesh Manocha.
+\newblock Obbtree: A hierarchical structure for rapid interference detection.
+\newblock In {\em Proceedings of the 23rd annual conference on Computer
+  graphics and interactive techniques}, pages 171--180. ACM, 1996.
+
+\bibitem{sagardia2014new}
+Mikel Sagardia, Theodoros Stouraitis, and Joao Lopes~e Silva.
+\newblock A new fast and robust collision detection and force computation
+  algorithm applied to the physics engine bullet: Method, integration, and
+  evaluation.
+\newblock In {\em Conference and Exhibition of the European Association of
+  Virtual and Augmented Reality}, 2014.
+
+\bibitem{knopp2007note}
+Tobias Knopp, Stefan Kunis, and Daniel Potts.
+\newblock A note on the iterative mri reconstruction from nonuniform k-space
+  data.
+\newblock {\em International journal of biomedical imaging}, 2007, 2007.
+
+\bibitem{lee2005type}
+June-Yub Lee and Leslie Greengard.
+\newblock The type 3 nonuniform fft and its applications.
+\newblock {\em Journal of Computational Physics}, 206(1):1--5, 2005.
+
+\bibitem{dutt1993fast}
+Alok Dutt and Vladimir Rokhlin.
+\newblock Fast fourier transforms for nonequispaced data.
+\newblock {\em SIAM Journal on Scientific computing}, 14(6):1368--1393, 1993.
+
+\bibitem{dutt1995fast}
+Alok Dutt and Vladimir Rokhlin.
+\newblock Fast fourier transforms for nonequispaced data, ii.
+\newblock {\em Applied and Computational Harmonic Analysis}, 2(1):85--100,
+  1995.
+
+\bibitem{potts2001fast}
+Daniel Potts, Gabriele Steidl, and Manfred Tasche.
+\newblock Fast fourier transforms for nonequispaced data: A tutorial.
+\newblock In {\em Modern sampling theory}, pages 247--270. Springer, 2001.
+
+\bibitem{keiner2009using}
+Jens Keiner, Stefan Kunis, and Daniel Potts.
+\newblock Using nfft 3---a software library for various nonequispaced fast
+  fourier transforms.
+\newblock {\em ACM Transactions on Mathematical Software (TOMS)}, 36(4):19,
+  2009.
 
 \end{thebibliography}

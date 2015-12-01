@@ -20,42 +20,6 @@
   publisher={Elsevier}
 }
 
-@article{lee2005type,
-  title={The type 3 nonuniform FFT and its applications},
-  author={Lee, June-Yub and Greengard, Leslie},
-  journal={Journal of Computational Physics},
-  volume={206},
-  number={1},
-  pages={1--5},
-  year={2005},
-  publisher={Elsevier}
-}
-
-@article{knopp2007note,
-  title={A note on the iterative MRI reconstruction from nonuniform k-space data},
-  author={Knopp, Tobias and Kunis, Stefan and Potts, Daniel},
-  journal={International journal of biomedical imaging},
-  volume={2007},
-  year={2007},
-  publisher={Hindawi Publishing Corporation}
-}
-
-@inproceedings{sagardia2014new,
-  title={A new fast and robust collision detection and force computation algorithm applied to the physics engine bullet: Method, integration, and evaluation},
-  author={Sagardia, Mikel and Stouraitis, Theodoros and Lopes e Silva, Joao},
-  booktitle={Conference and Exhibition of the European Association of Virtual and Augmented Reality},
-  year={2014}
-}
-
-@inproceedings{gottschalk1996obbtree,
-  title={OBBTree: A hierarchical structure for rapid interference detection},
-  author={Gottschalk, Stefan and Lin, Ming C and Manocha, Dinesh},
-  booktitle={Proceedings of the 23rd annual conference on Computer graphics and interactive techniques},
-  pages={171--180},
-  year={1996},
-  organization={ACM}
-}
-
 @article{cooley1965algorithm,
   title={An algorithm for the machine calculation of complex Fourier series},
   author={Cooley, James W and Tukey, John W},

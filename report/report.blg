@@ -1,52 +1,45 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: report.aux
 The style file: unsrt.bst
-I couldn't open database file dynamic-references.bib
----line 3 of file report.aux
- : \bibdata{dynamic-references
- :                            }
-I'm skipping whatever remains of this command
-I found no \citation commands---while reading file report.aux
-I found no database files---while reading file report.aux
-You've used 0 entries,
+Database file #1: minkowski.bib
+You've used 12 entries,
             1791 wiz_defined-function locations,
-            445 strings with 3528 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            530 strings with 5705 characters,
+and the built_in function-call counts, 2956 in all, are:
+= -- 285
+> -- 103
+< -- 2
++ -- 39
+- -- 27
+* -- 201
+:= -- 455
+add.period$ -- 38
+call.type$ -- 12
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 12
+duplicate$ -- 135
+empty$ -- 299
+format.name$ -- 27
+if$ -- 666
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 12
+missing$ -- 12
+newline$ -- 63
+num.names$ -- 12
+pop$ -- 28
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 63
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 236
+swap$ -- 32
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There were 3 error messages)
+while$ -- 33
+width$ -- 14
+write$ -- 135
