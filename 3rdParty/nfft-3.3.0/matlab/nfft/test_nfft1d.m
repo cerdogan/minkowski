@@ -21,9 +21,9 @@ clear all;
 M=12; % number of nodes
 N=12; % number of Fourier coefficients in first direction
 
-x=rand(M,1)-0.5; %nodes
-%x=(0:1/M:(1-1/M)) - 0.5;
-%x=x'
+%x=rand(M,1)-0.5; %nodes
+x=(0:1/M:(1-1/M)) - 0.5;
+x=x';
 
 % Initialisation
 plan=nfft(1,N,M); % create plan of class type nfft
@@ -54,5 +54,8 @@ end %for
 
 % Compare results
 max(abs(f1-f2))
+
+% If sampled from sine(x) regularly, compute with fft
+f3 = fft(fhat);
 
 
