@@ -21,6 +21,6 @@ function h = drawCircle (pos, radius, color)
         ps(end+1,:) = point1;
     end
     
-    h = plot(ps(:,1), ps(:,2) ,['-', color]);
+    h = plot(ps(:,1), ps(:,2) ,['-', color], 'LineWidth', 5);
     axis equal
 end
