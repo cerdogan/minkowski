@@ -18,8 +18,8 @@
 % Test script of class nfft for spatial dimension d=1.
 clear all;
 
-M=12; % number of nodes
-N=12; % number of Fourier coefficients in first direction
+M=192; % number of nodes
+N=192; % number of Fourier coefficients in first direction
 
 %x=rand(M,1)-0.5; %nodes
 x=(0:1/M:(1-1/M)) - 0.5;
@@ -31,7 +31,7 @@ plan.x=x; % set nodes in plan
 nfft_precompute_psi(plan); % precomputations
 
 fhat=rand(N,1); % Fourier coefficients
-fhat = sin(x);
+fhat = cos(x);
 fhatv=fhat(:);
 
 
@@ -57,5 +57,6 @@ max(abs(f1-f2))
 
 % If sampled from sine(x) regularly, compute with fft
 f3 = fft(fhat);
+  max(max(max(real(f1)-real(f3))), max(max(imag(f1)-imag(f3))))
 
 
