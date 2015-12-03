@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.5.15)  1 DEC 2015 15:35
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.5.15)  1 DEC 2015 16:32
 entering extended mode
  %&-line parsing enabled.
 **report.tex
@@ -256,18 +256,25 @@ File: Figures/main.png Graphic file (type png)
 
 
  <./Figures/main.png>]
-<Figures/bump.png, id=17, 1190.19656pt x 660.96938pt>
+<Figures/bump.png, id=16, 1190.19656pt x 660.96938pt>
 File: Figures/bump.png Graphic file (type png)
  <use Figures/bump.png>
-<Figures/bumpConvolved.png, id=18, 1925.69438pt x 641.39626pt>
+<Figures/bumpConvolved.png, id=17, 1925.69438pt x 641.39626pt>
 File: Figures/bumpConvolved.png Graphic file (type png)
 
 <use Figures/bumpConvolved.png> [2 <./Figures/bump.png>]
 <Figures/bumpFouriers.png, id=30, 2476.75313pt x 673.01437pt>
 File: Figures/bumpFouriers.png Graphic file (type png)
 
-<use Figures/bumpFouriers.png> [3 <./Figures/bumpConvolved.png>] [4 <./Figures/
-bumpFouriers.png>] (./report.bbl)
+<use Figures/bumpFouriers.png> [3 <./Figures/bumpConvolved.png>]
+<Figures/fft.png, id=36, 1177.39874pt x 686.565pt>
+File: Figures/fft.png Graphic file (type png)
+ <use Figures/fft.png>
+[4 <./Figures/bumpFouriers.png> <./Figures/fft.png>]
+<Figures/spherical.png, id=44, 1206.00563pt x 685.05937pt>
+File: Figures/spherical.png Graphic file (type png)
+
+<use Figures/spherical.png> (./report.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -279,36 +286,35 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[5
-
-] (./report.aux) ) 
+[5 <./Figures/spherical.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 2622 strings out of 495061
- 36032 string characters out of 1182621
- 105473 words of memory out of 3000000
- 5784 multiletter control sequences out of 15000+50000
- 39555 words of font info for 82 fonts, out of 3000000 for 9000
+ 2626 strings out of 495061
+ 36184 string characters out of 1182621
+ 105489 words of memory out of 3000000
+ 5790 multiletter control sequences out of 15000+50000
+ 38418 words of font info for 78 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  27i,9n,20p,282b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy5.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texm
-f-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type
-1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.
-pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (5 pages, 757204 bytes).
+{/usr/share/texmf-texlive/fonts/e
+nc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-tex
+live/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/ur
+w/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (5 pages, 809833 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -7,7 +7,7 @@
 % In addition, the bump function for ball0 is generated without all the 
 % sample points and the rest are padded.
 
-function [] = s10_uniformCentersB0_padded ()
+function [t1,t2] = s10_uniformCentersB0_padded (N)
 
   % Draw the possible circle centers
   figure(1);
@@ -19,12 +19,17 @@ function [] = s10_uniformCentersB0_padded ()
   plot(ps(:,1),ps(:,2),'.'); hold on;
   
   % Draw the three circles
-  cs = [-0.5 + d, 1;
-        1 - d*5, 2;
-        1+d*7, -3*d;
-        0.4+d*2, 1.0;
-        0.6+d*2, 0
-        ];
+ % cs = [-0.5 + d, 1;
+ %       1 - d*5, 2;
+ %       1+d*7, -3*d;
+ %       0.4+d*2, 1.0;
+ %       0.6+d*2, 0
+ %       ];
+ cs = [];
+  for i = 1 : N
+    maxI = round(((high-0.6)-(low+0.6))/d+1);
+    cs(end+1,:) = [randi(maxI) * d + low+0.6, randi(maxI) * d + low+0.6];
+  end
   %cs = [p1;p2;p3;p4;p5];
   %drawCircle([0,0], 0.5, 'c');
   
@@ -50,7 +55,7 @@ function [] = s10_uniformCentersB0_padded ()
   rhof = fft2(rho);
   v0f = fft2(v0,K,K);
   rhov0f = rhof.*v0f;
-  toc
+  t1 = toc;
   
   % Generate the descriptor function for the entire shape
   tic
@@ -64,15 +69,14 @@ function [] = s10_uniformCentersB0_padded ()
   %v(find(isinf(v))) = 1e1;
   v(find(v>99)) = 150;
   v = reshape(v,K,K);
-  figure(2);
-  [X,Y] = meshgrid(low:d:high, low:d:high)
-  surf(X,Y,v)
+  %figure(2);
+  %[X,Y] = meshgrid(low:d:high, low:d:high)
+  %surf(X,Y,v)
   
   % Compare with the fourier transform of the entire shape
   vf = fft2(v);
-  keyboard
-  toc
-  assert(max(max(max(real(vf)-real(rhov0f))), max(max(imag(vf)-imag(rhov0f)))) < 1e-5);
+  t2 = toc;
+ % assert(max(max(max(real(vf)-real(rhov0f))), max(max(imag(vf)-imag(rhov0f)))) < 1e-3);
 
 end
 

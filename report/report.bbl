@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{lysenko2013fourier}
+Mikola Lysenko.
+\newblock Fourier collision detection.
+\newblock {\em The International Journal of Robotics Research}, 32(4):483--503,
+  2013.
+
 \bibitem{behandish2016analytic}
 Morad Behandish and Horea~T Ilie{\c{s}}.
 \newblock Analytic methods for geometric modeling via spherical decomposition.
@@ -11,12 +17,6 @@ Lydia~E Kavraki.
   transform.
 \newblock {\em Robotics and Automation, IEEE Transactions on}, 11(3):408--413,
   1995.
-
-\bibitem{lysenko2013fourier}
-Mikola Lysenko.
-\newblock Fourier collision detection.
-\newblock {\em The International Journal of Robotics Research}, 32(4):483--503,
-  2013.
 
 \bibitem{cooley1965algorithm}
 James~W Cooley and John~W Tukey.
